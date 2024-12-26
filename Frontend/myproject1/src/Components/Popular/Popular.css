@@ -1,0 +1,35 @@
+.popular-item{
+   
+    display: flex;
+    /* overflow-x: scroll;        Cho phép cuộn ngang */
+                   /* Ẩn thanh cuộn ngang */
+    
+    gap:30px;
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular{
+    /* background-color: #171717; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-left: 60px;
+    
+   justify-content: center;
+    
+    gap: 10px;
+    height: 90vh;
+    margin-bottom: 100px;
+
+}
